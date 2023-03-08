@@ -9,6 +9,11 @@ inputForm.addEventListener("submit", (e) => {
 
 	if (usernameBox.value !== correctUsername) {
 		if (!usernameBox.value.length && !passwordBox.value.length) {
+			usernameBox.classList.add("invalid");
+			inputForm.querySelector("#username-container i.x").classList.add("fa-x");
+			passwordBox.classList.add("invalid");
+			inputForm.querySelector("#password-container i.x").classList.add("fa-x");
+
 			return createParagraph("*please, enter username and password");
 		}
 
