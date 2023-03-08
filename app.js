@@ -26,6 +26,9 @@ inputForm.addEventListener("submit", (e) => {
 			createParagraph("*please, enter username");
 		}
 	} else {
+		inputForm.querySelector("#username-container i.x").classList.remove("fa-x");
+		usernameBox.classList.remove("invalid");
+
 		usernameBox.classList.add("valid");
 		inputForm.querySelector("#username-container i.x").classList.add("fa-check");
 	}
@@ -40,6 +43,9 @@ inputForm.addEventListener("submit", (e) => {
 			createParagraph("*please, enter password");
 		}
 	} else {
+		inputForm.querySelector("#password-container i.x").classList.remove("fa-x");
+		passwordBox.classList.remove("invalid");
+
 		passwordBox.classList.add("valid");
 		inputForm.querySelector("#password-container i.x").classList.add("fa-check");
 	}
