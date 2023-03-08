@@ -29,3 +29,35 @@ form label {
 form div {
 	margin: 16px 0px;
 }
+
+.valid {
+	border-color: rgb(0, 255, 0);
+}
+
+.invalid {
+	border-color: red;
+}
+
+#username-container {
+	position: relative;
+}
+
+#password-container {
+	position: relative;
+}
+
+.fa-check {
+	position: absolute;
+	right: 0.5rem;
+	top: 1.65rem;
+	color: rgb(4, 217, 4);
+	font-size: 1.25rem;
+}
+
+.fa-x {
+	position: absolute;
+	right: 0.5rem;
+	top: 1.65rem;
+	color: red;
+	font-size: 1.25rem;
+}
