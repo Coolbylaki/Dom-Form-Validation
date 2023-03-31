@@ -1,3 +1,3 @@
 # formValidation
 
-Site preview: https://coolbylaki.github.io/formValidation/
+Site preview: https://coolbylaki.github.io/Dom-Form-Validation/
